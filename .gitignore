@@ -1,1 +1,31 @@
+# === Node dependencies ===
 node_modules/
+
+# === npm lock file ===
+# (since i use npm, but for yarn i'll delete it)
+# yarn.lock
+
+# === Build output ===
+dist/
+build/
+
+# === Tailwind output (since i'm not manually editing it) ===
+src/output.css
+*.css.d.ts
+
+# === VS Code settings ===
+.vscode/
+
+# === Environment files ===
+.env
+.env.local
+.env.*.local
+
+# === Logs ===
+npm-debug.log*
+package-lock.json
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
